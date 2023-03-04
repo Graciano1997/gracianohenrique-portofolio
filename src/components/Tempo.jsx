@@ -6,7 +6,7 @@ export default function Tempo(){
     
     return  (
       <div className='corpo' id='time'>
-    <h3> Time in Angola : {new Date().toLocaleTimeString()}</h3>
+    <h3> Time: {new Date().toLocaleTimeString()}</h3>
       </div>
     );
     }
