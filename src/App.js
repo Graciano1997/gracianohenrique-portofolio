@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import {  faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 import './App.css';
 import Nav from './components/Nav';
 import Tempo from './components/Tempo';
@@ -6,11 +7,14 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Main from './components/Main';
 import { useState } from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 function App() {  
   const [thema,setThema]=useState('white');
   const [men,setMen]=useState('none');
   const [meni,setMeni]=useState('≡');
+  const [icon,setIcon]=useState({state:'day',icon:faMoon});
 
 
   return (
@@ -22,11 +26,6 @@ function App() {
 
 <Header/>
 <div >
-  <h1 ><button onClick={function(){
-  (thema==='white')?(setThema('black')):(setThema('white'));
-
-}} style={{fontSize:'15px' }}>Theme {thema} </button> 
-  </h1 >
   <a  style={{fontSize:'50pt', margin:'20px'}} onClick={
      function(){
 
@@ -44,6 +43,18 @@ function App() {
 
   } >{meni}</a >
   
+  <span onClick={function(){
+  if(thema==='white'){
+    setThema('black')
+      setIcon({state:'noite',icon:faSun})
+  }else{
+
+    (setThema('white'));
+    setIcon({state:'dia',icon:faMoon})
+  
+  }
+
+}} className="iconthema" id={icon.state}><FontAwesomeIcon icon={icon.icon} size='4x' /> </span> 
   </div>
   
 </div>
