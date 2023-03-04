@@ -1,0 +1,31 @@
+@media screen and (max-width:480px){
+    /*Only mobiles*/
+    .main{
+        display: flex;
+        flex-direction: column;
+    }   
+}
+
+
+@media screen and (min-width:481px) and (max-width:768px){
+    .main{
+        display: grid;
+    }   
+}
+
+
+@media screen and (min-width:769px) and (max-width:1199px){
+    .main{
+        display: grid;
+    }   
+}
+
+
+
+@media screen and (min-width:1200px){
+    .main{
+        display: grid;
+        grid-template-rows: 500px repeat(2,auto);
+   
+    }   
+}

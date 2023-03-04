@@ -1,0 +1,14 @@
+.header{
+    
+    position: fixed;
+    background-color:#18181b;
+    color: white;
+    }
+
+    @media screen and (min-width:1200px){
+.header{
+
+    
+}
+    }
+    

@@ -1,0 +1,30 @@
+.corpo{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+background-color: #18181b;
+color:white;
+}
+
+
+.corpo h3{
+    
+    text-align: center;
+}
+
+.yara{  
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    color:white;
+    font-size: 70px;
+    background-color: rgb(255, 0, 13);
+    border-radius: 25px;
+    text-align: center;
+    border-left-style: dashed;
+    border-style: dashed;
+    margin: 15px;
+    height: 300px;
+    grid-column: auto;
+    }
+  

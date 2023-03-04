@@ -1,0 +1,24 @@
+.skill{
+
+    background-color: rgba(255, 255, 255, 0.699);
+}
+
+.skill h1{
+    margin-top: 28px;
+    margin-left: 28px;
+
+ }
+
+#skills{
+    margin-bottom: 28px;
+    margin-top: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#skills ul{
+    list-style: none;
+}
+
+ 

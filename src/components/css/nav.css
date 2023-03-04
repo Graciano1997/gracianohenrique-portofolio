@@ -1,0 +1,109 @@
+@media screen and (max-width:480px){
+    /*Only mobiles*/
+    .nav div{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    } 
+
+    #black a, #white a{
+padding: 5px;
+        text-align: center;
+        border-radius: 5px;
+        font-size: 15pt;
+        font-weight: bold;
+    }
+    #black a{
+       background-color:rgb(204, 99, 99);
+    
+    }
+    #white a{
+    background-color:rgb(99, 204, 164);
+    
+}
+
+#white,#black{
+    display: none;
+}
+
+    .nav a{
+        
+        margin-top: 10px; 
+        text-decoration: none;  }
+    
+}
+
+
+@media screen and (min-width:481px) and (max-width:768px){
+.nav{
+    display: flex;
+    flex-direction: row;
+    
+     justify-content:flex-end;
+}
+
+.nav a{ justify-content:space-between;}
+
+.nav a:hover{
+    font-size: 14px;
+    font-weight: bold;
+}
+.nav a{
+    padding-left: 14px;
+}
+}
+
+
+@media screen and (min-width:769px) and (max-width:1199px){
+    .nav {
+        display: flex;
+        flex-direction: row;
+     justify-content:flex-end;
+    }   
+    .nav a{ justify-content:space-between;}
+        
+.nav a:hover{
+    font-size: 16pt;
+    font-weight: bold;
+}
+.nav a{
+    padding-left: 14px;
+}
+}
+
+
+
+@media screen and (min-width:1200px){
+    .nav{
+        display: flex;
+        flex-direction: row;
+     justify-content:flex-end;
+    }
+    
+    .nav a:hover{
+        font-size: 16pt;
+        font-weight: bold;
+    }
+    .nav a{
+        padding-left: 14px;
+    }
+    #black a,#white a{
+        text-decoration: underline;
+    }
+}
+
+.nav{
+    margin: 28px;   
+}
+.nav div a{
+ text-decoration: none;   
+}
+#black a{
+    color: white;
+ 
+}
+#white a{
+    
+    color:black;
+ 
+}

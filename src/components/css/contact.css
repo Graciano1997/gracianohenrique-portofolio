@@ -1,0 +1,83 @@
+.contact{
+   border: 0.01px solid white;
+
+    }
+
+    .contact h1{
+       margin-top: 28px;
+       margin-left: 28px;
+
+    }
+ .contactme{
+   
+   margin-bottom: 28px;
+   margin-top: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+ 
+ }
+
+ .contactme div{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.493);
+    color:white;
+    margin: 5px;
+
+ }
+
+ .ArrowUp{
+   margin-top: 15px;
+   display: flex;
+   flex-direction: row;
+   justify-content: end;
+   margin-right: 9%;
+   position: relative;
+}
+.ArrowUp div a{
+   text-align: center;
+   font-size: 50pt;
+   text-decoration: none;
+}
+
+
+.ArrowUp div a:hover{
+   font-size: 50px;
+}
+
+.contatos{
+   display: flex;
+   justify-content: center;
+  
+}
+#contatos-white a,#contatos-black a{
+
+   margin: 20px;
+}
+#contatos-white a{
+   color:black;
+}
+
+#contatos-black a{
+   color:white;
+   
+}
+
+
+@media screen and (max-width:480px){
+   /*Only mobiles*/
+   .contatos{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+     
+   }
+   
+#contatos-white a,#contatos-black a{
+   margin: 12px;
+   text-align: center;
+}
+      
+}

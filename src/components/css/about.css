@@ -1,0 +1,25 @@
+.about{
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   background-color: rgba(0, 0, 0, 0.356);
+   border: 0.01px solid white;
+  
+}
+
+.about p{
+
+    padding: 7px;
+}
+
+h3{
+    padding: 12px;
+    
+}
+
+h1{
+   font-size: 25pt; 
+   margin-bottom: 18px;
+}
