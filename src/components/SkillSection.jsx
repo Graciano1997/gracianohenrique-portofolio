@@ -14,7 +14,6 @@ export default function SkillSection(){
         <ul>
         <li> <h3>Front-end</h3></li>
        <li>
-        <li>Blade Template Engine</li>
         <li>BootStrap</li>
        <li>React</li>
         <li>Html</li>
@@ -28,7 +27,7 @@ export default function SkillSection(){
 <li> <h3> Back-end</h3></li>
 <li>
 <ul>
-<li>PHP_Laravel</li>
+<li>Laravel</li>
 <li>NodeJS</li>
 <li>PHP</li>
 </ul>

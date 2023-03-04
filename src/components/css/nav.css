@@ -1,3 +1,4 @@
+/*Mobile ......*/
 @media screen and (max-width:480px){
     /*Only mobiles*/
     .nav div{
@@ -15,25 +16,21 @@ padding: 5px;
     }
     #black a{
        background-color:rgb(204, 99, 99);
-    
     }
     #white a{
-    background-color:rgb(99, 204, 164);
-    
-}
+    background-color:rgb(99, 204, 164);   }
 
 #white,#black{
     display: none;
 }
 
     .nav a{
-        
         margin-top: 10px; 
         text-decoration: none;  }
-    
 }
+/* Mobile Done*/
 
-
+/*Tablet Iphod and Mobile Landscape*/
 @media screen and (min-width:481px) and (max-width:768px){
 .nav{
     display: flex;
@@ -41,9 +38,7 @@ padding: 5px;
     
      justify-content:flex-end;
 }
-
 .nav a{ justify-content:space-between;}
-
 .nav a:hover{
     font-size: 14px;
     font-weight: bold;
@@ -52,8 +47,9 @@ padding: 5px;
     padding-left: 14px;
 }
 }
+/*Tablet Iphod and Mobile Landscape DONE*/
 
-
+/* Some Computerss*/
 @media screen and (min-width:769px) and (max-width:1199px){
     .nav {
         display: flex;
@@ -70,9 +66,9 @@ padding: 5px;
     padding-left: 14px;
 }
 }
+/* Done*/
 
-
-
+/* Large COmputer and TV*/
 @media screen and (min-width:1200px){
     .nav{
         display: flex;
@@ -92,18 +88,10 @@ padding: 5px;
     }
 }
 
-.nav{
-    margin: 28px;   
-}
-.nav div a{
- text-decoration: none;   
-}
-#black a{
-    color: white;
- 
-}
-#white a{
-    
-    color:black;
- 
-}
+/* DONE*/
+
+.nav{margin: 28px;   }
+
+.nav div a{ text-decoration: none;   }
+#black a{    color: white;}
+#white a{    color:black;}

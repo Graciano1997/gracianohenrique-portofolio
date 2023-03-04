@@ -21,7 +21,11 @@ background-color: rgba(0, 0, 0, 0.185);
 }
 
 .projects div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 background-color: rgba(0, 0, 0, 0.493);
+text-align: center;
 margin: 12px;
 border: 2px solid yellow;
     width: 200px;

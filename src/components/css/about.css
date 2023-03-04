@@ -9,17 +9,16 @@
   
 }
 
-.about p{
+h1{font-size: 25pt; margin-bottom: 18px;}
+.about p{    padding: 7px;}
+h3{ padding: 12px;}
 
-    padding: 7px;
-}
 
-h3{
-    padding: 12px;
+
+/*Mobile ......*/
+@media screen and (max-width:480px){
+    /*Only mobiles*/
+    
     
 }
 
-h1{
-   font-size: 25pt; 
-   margin-bottom: 18px;
-}

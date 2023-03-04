@@ -1,3 +1,76 @@
+
+@media screen and (max-width:480px){
+    #skills{
+        margin-bottom: 28px;
+        margin-top: 28px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #skills div{ text-align: center; }
+    #skills div li li{    margin: 5px; list-style: square;}
+    #skills div li li:hover{    border-radius: 12px;
+    color:black;
+    font-size: 12pt;
+    }
+
+ 
+            }
+
+            /*Tablet Iphod and Mobile Landscape*/
+@media screen and (min-width:481px) and (max-width:768px){
+   
+#skills{
+    margin-bottom: 28px;
+    margin-top: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+    #skills div{ text-align: center; }
+    #skills div li li{    margin: 5px;}
+    #skills div li li:hover{    border-radius: 12px;
+    color:black;
+    font-size: 12pt;
+    }
+}
+
+    /*Tablet Iphod and Mobile Landscape DONE*/
+ 
+    @media screen and (min-width:769px) and (max-width:1199px){
+    
+        
+
+#skills{
+    margin-bottom: 28px;
+    margin-top: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#skills div li li{    margin: 5px; }
+ 
+
+    }
+            
+
+@media screen and (min-width:1200px){
+  
+
+#skills{
+    margin-bottom: 28px;
+    margin-top: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#skills div li li{    margin: 5px; }
+ 
+
+}
+
 .skill{
 
     background-color: rgba(255, 255, 255, 0.699);
@@ -8,15 +81,6 @@
     margin-left: 28px;
 
  }
-
-#skills{
-    margin-bottom: 28px;
-    margin-top: 28px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
 #skills ul{
     list-style: none;
 }

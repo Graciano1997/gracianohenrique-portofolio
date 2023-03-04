@@ -1,41 +1,14 @@
-.contact{
-   border: 0.01px solid white;
-
-    }
-
-    .contact h1{
-       margin-top: 28px;
-       margin-left: 28px;
-
-    }
- .contactme{
+.contact{border: 0.01px solid white;    }
+    .contact h1{ margin-top: 28px;margin-left: 28px;}
    
-   margin-bottom: 28px;
-   margin-top: 28px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-   
- 
- }
-
  .contactme div{
     width: 200px;
     height: 200px;
     background-color: rgba(0, 0, 0, 0.493);
     color:white;
     margin: 5px;
-
  }
 
- .ArrowUp{
-   margin-top: 15px;
-   display: flex;
-   flex-direction: row;
-   justify-content: end;
-   margin-right: 9%;
-   position: relative;
-}
 .ArrowUp div a{
    text-align: center;
    font-size: 50pt;
@@ -47,11 +20,6 @@
    font-size: 50px;
 }
 
-.contatos{
-   display: flex;
-   justify-content: center;
-  
-}
 #contatos-white a,#contatos-black a{
 
    margin: 20px;
@@ -79,5 +47,74 @@
    margin: 12px;
    text-align: center;
 }
-      
+ 
+.ArrowUp{
+   margin-top: 15px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-right: 9%;
+   position: relative;
 }
+}
+
+@media screen and (min-width:481px) and (max-width:768px){
+   .contatos{
+      display: flex;
+      flex-direction: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+     
+   }
+   .ArrowUp{
+      margin-top: 15px;
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+      margin-right: 9%;
+      position: relative;
+   }
+  
+}
+
+@media screen and (min-width:769px) and (max-width:1199px){
+   .contatos{
+      display: flex;
+      flex-direction: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+     
+   }
+
+   .ArrowUp{
+      margin-top: 15px;
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+      margin-right: 9%;
+      position: relative;
+   }
+  
+}
+
+
+
+@media screen and (min-width:1200px){
+   .ArrowUp{
+      margin-top: 15px;
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+      margin-right: 9%;
+      position: relative;
+   }
+   .contatos{
+      display: flex;
+      flex-direction: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+     
+   }
+
+}
+
