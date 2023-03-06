@@ -1,4 +1,14 @@
-.contact{border: 0.01px solid white;    }
+.contatos{
+  
+   
+   margin-top: 17.5px;
+   margin-bottom: 17.5px;
+}
+.contact{ 
+
+   margin-top: 35px;
+   margin-bottom: 35px;
+}
     .contact h1{ margin-top: 28px;margin-left: 28px;}
    
  .contactme div{
@@ -24,14 +34,19 @@
 
    margin: 20px;
 }
+
 #contatos-white a{
    color:black;
 }
 
 #contatos-black a{
-   color:white;
-   
+   color:white;   
 }
+
+#contatos-white a:hover,contatos-black a:hover{
+   transform: rotate(15deg);
+}
+
 
 
 @media screen and (max-width:480px){

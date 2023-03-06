@@ -40,7 +40,7 @@ export default function SkillSection(){
 <li>
 <ul>
 <li>Version Control</li>
-<li>My Sql</li>
+<li>MySql</li>
 <li>GitHub</li>
 <li>Java</li>
 </ul>

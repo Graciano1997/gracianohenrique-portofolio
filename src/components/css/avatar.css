@@ -14,3 +14,8 @@
     height: 230px;
     border-radius: 100%;
 }
+
+.avatar img:hover{
+    border: 5px solid black;
+     box-shadow: 0 0 2px 7px;
+}
