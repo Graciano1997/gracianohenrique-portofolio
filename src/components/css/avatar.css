@@ -4,10 +4,8 @@
 }
 
 .avatar{
-   
     margin-bottom: 5px;
-    margin-top: 15px;
-}
+    margin-top: 15px;}
 
 .avatar img{
     width: 230px;
@@ -17,5 +15,5 @@
 
 .avatar img:hover{
     border: 5px solid black;
-     box-shadow: 0 0 2px 7px;
+     box-shadow: 0 0pl 2px 7px;
 }

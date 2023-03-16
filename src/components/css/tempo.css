@@ -1,3 +1,5 @@
+.corpo h3{text-align: center;}
+
 .corpo{
     display: flex;
     flex-direction: column;
@@ -7,10 +9,6 @@ color:white;
 }
 
 
-.corpo h3{
-    
-    text-align: center;
-}
 
 .yara{  
     display: grid;

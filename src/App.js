@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import {  faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
+import {  faCloudSun, faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 import './App.css';
 import Nav from './components/Nav';
 import Tempo from './components/Tempo';
@@ -8,13 +8,16 @@ import Footer from './components/Footer';
 import Main from './components/Main';
 import { useState } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAndroid, faApple, faSafari } from '@fortawesome/free-brands-svg-icons';
 
 
 function App() {  
+  document.title='Graciano Henrique Portofolio';
   const [thema,setThema]=useState('white');
   const [men,setMen]=useState('none');
   const [meni,setMeni]=useState('≡');
   const [icon,setIcon]=useState({state:'day',icon:faMoon});
+
 
 
   return (

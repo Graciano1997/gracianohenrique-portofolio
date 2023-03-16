@@ -12,6 +12,3 @@ const root=ReactDOM.createRoot(
   
 root.render(<App/>)
 
-const time=ReactDOM.createRoot(document.getElementById('tempo'))
-setInterval(function(){time.render(<Tempo/>)},1000);
-
