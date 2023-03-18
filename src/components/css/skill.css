@@ -1,4 +1,4 @@
-
+#skills div li li{    margin: 9px; list-style: none;}
 
 @media screen and (max-width:480px){
     #skills{
@@ -10,7 +10,7 @@
     }
 
     #skills div{ text-align: center; }
-    #skills div li li{    margin: 9px; list-style: square;}
+    #skills div li li{    margin: 9px; list-style: none;}
     #skills div li li:hover{    border-radius: 12px;
     color:black;
     font-size: 12pt;
